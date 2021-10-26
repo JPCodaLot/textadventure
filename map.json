@@ -1,0 +1,94 @@
+{
+  "title":"Text Adventure",
+  "author":"Jcoms-coding and JPCodaLot",
+  "rules":"Welcome to my first text adventure game. The purpose of this game is to collect items throughout twelve rooms. The last room has an angry beast awaiting you. Make sure you are prepared with a weapon and with your strength. You will have an inventory where you will collect your items. Also, I suggest you have a piece of paper nearby to write down were you have been. Maybe even sketch out your rooms on the paper and create a map. Good luck!",
+  "start":0,
+  "finish":11,
+  "inventory":["flashlight"],
+  "items":{
+    "Broken lamp":"You have found the broken lamp. You keep it.",
+    "Pick axe":"You look around and find a pick axe.",
+    "Mag Glass":"You look around and find a magnifing glass.",
+    "Gem":"You look around and find a glowing gem.",
+    "Gold Key":"You look around and find a golden key.",
+    "Gloves":"You look around and find gloves.",
+    "Pistol":"You look around and find pistol.",
+    "Potion":"You look around and find a strength potion.",
+    "Lightning Rod":"You look around and find a lightning rod."
+  },
+  "rooms":[
+    {
+      "name":"You have entered the first room!",
+      "description":"You have now stopped after entering the first room. You notice a small oil lamp and turn it on for light. After you realize the lamp does not work you take out your flashlight and turn it on. \"click\" Now that you are ready, you start exploring the first room.",
+      "item":"Broken lamp",
+      "exits":{"n":3,"w":1,"e":2}
+    },
+    {
+      "name":"You have entered the second room!",
+      "description":"You have now entered room 2. The second room is also dark so you keep your flashlight on. You notice old carvings on the wall as you observe your suroundings.",
+      "exits":{"n":5,"e":0}
+    },
+    {
+      "name":"You have entered the third room!",
+      "description":"You have now entered room 3. The third room is also dark so you keep your flashlight on.",
+      "item":"Pick axe",
+      "exits":{"n":4,"w":0}
+    },
+    {
+      "name":"You have entered the fourth room!",
+      "description":"You have now entered room 4. This second room is faintly lit with a small window letting the moonlight in.",
+      "item":"Mag Glass",
+      "exits":{"n":6,"s":0,"w":5,"e":4}
+    },
+    {
+      "name":"You have entered the Fifth room!",
+      "description":"You have now entered room 5. This room is dark and a little more damp than the other rooms.",
+      "item":"Gem",
+      "exits":{"n":7,"s":2,"w":3}
+    },
+    {
+      "name":"You have entered the sixth room!",
+      "description":"You use your pick axe to make your way though the remaining collapsed wall. You dimly spot something shiny hanging on a hook.",
+      "item":"Gold Key",
+      "require":["Pick axe"],
+      "clue":"You cannot procede left because the wall has collapsed. You need a pick axe in your inventory to procede.",
+      "exits":{"n":8,"s":1,"e":3}
+    },
+    {
+      "name":"You have entered the seventh room!",
+      "description":"You have now entered room 7. This room has a nasty oder, you think of going back. However your urge for adventure keeps you moving forward.",
+      "item":"Gloves",
+      "exits":{"n":9,"s":3,"w":8,"e":7}
+    },
+    {
+      "name":"You have entered the eighth room!",
+      "description":"You have now entered room 8. Room 8 is full of empty powder kegs. You asume it must have been a storage room or armory.",
+      "item":"Pistol",
+      "exits":{"n":10,"s":4,"w":6}
+    },
+    {
+      "name":"You have entered the nineth room!",
+      "description":"You have now entered room 9. Room 9 is dark and has a old coat of arms on the wall.",
+      "exits":{"n":11,"s":5,"e":6}
+    },
+    {
+      "name":"You have entered the tenth room!",
+      "description":"You have now entered room 10. Room 10 is an old wiches chamber. You see various brewing stands and potions.",
+      "item":"Potion",
+      "exits":{"s":6,"w":11,"e":10}
+    },
+    {
+      "name":"You have entered the eleventh room!",
+      "description":"You have now entered room 11. In this room you can hear an angry beast near by. You are nearing the end!",
+      "item":"Lightning Rod",
+      "exits":{"s":7,"w":9}
+    },
+    {
+      "name":"Congratulations!",
+      "description":"You have found the treasure and killed the beast with the pistol. You have won the game!",
+      "require":["Gold Key","Pistol","Gem","Potion"],
+      "clue":"You do not have all the needed items to continue to this room.",
+      "exits":{}
+    }
+  ]
+}
