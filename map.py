@@ -1,4 +1,4 @@
-{
+m = {
   "title":"Text Adventure",
   "author":"Jcoms-coding and JPCodaLot",
   "rules":"Welcome to my first text adventure game. The purpose of this game is to collect items throughout twelve rooms. The last room has an angry beast awaiting you. Make sure you are prepared with a weapon and with your strength. You will have an inventory where you will collect your items. Also, I suggest you have a piece of paper nearby to write down were you have been. Maybe even sketch out your rooms on the paper and create a map. Good luck!",

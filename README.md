@@ -1,2 +1,2 @@
-# Text-Game
-Welcome to my first text adventure game. The purpose of this game is to collect items throughout twelve rooms. The last room has an angry beast awaiting you. Make sure you are prepared with a weapon and with your strength. You will have an inventory where you will collect your items. Also, I suggest you have a piece of paper nearby to write down were you have been. Maybe even sketch out your rooms on the paper and create a map. Good luck!
+# 12 Rooms Text Adventure Game
+Welcome to my first text adventure game. Switch to the main.py tab and then press Ctrl+R to play. You are recommended to change the font size to 9. The purpose of this game is to collect items throughout twelve rooms. The last room has an angry beast awaiting you. This game was forked from Jcoms-coding version by JPCodalot. It has been optimized for TI-nspire CX II python. Check out https://github.com/JPCodaLot/textadventure for more information. *Have fun! :)*
