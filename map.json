@@ -75,13 +75,13 @@
       "name":"You have entered the tenth room!",
       "description":"You have now entered room 10. Room 10 is an old wiches chamber. You see various brewing stands and potions.",
       "item":"Potion",
-      "exits":{"s":6,"w":11,"e":9}
+      "exits":{"s":7,"w":10}
     },
     {
       "name":"You have entered the eleventh room!",
       "description":"You have now entered room 11. In this room you can hear an angry beast near by. You are nearing the end!",
       "item":"Lightning Rod",
-      "exits":{"s":7,"w":10}
+      "exits":{"s":6,"e":9,"w":11}
     },
     {
       "name":"Congratulations!",
