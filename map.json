@@ -36,7 +36,7 @@
     },
     {
       "name":"You have entered the fourth room!",
-      "description":"You have now entered room 4. This second room is faintly lit with a small window letting the moonlight in.",
+      "description":"You have now entered room 4. This second room is faintly lit with a small skylight letting the moonlight in.",
       "item":"Mag Glass",
       "exits":{"n":6,"s":0,"w":5,"e":4}
     },
@@ -58,13 +58,13 @@
       "name":"You have entered the seventh room!",
       "description":"You have now entered room 7. This room has a nasty oder, you think of going back. However your urge for adventure keeps you moving forward.",
       "item":"Gloves",
-      "exits":{"n":9,"s":3,"w":8,"e":7}
+      "exits":{"n":10,"s":3,"w":8,"e":7}
     },
     {
       "name":"You have entered the eighth room!",
       "description":"You have now entered room 8. Room 8 is full of empty powder kegs. You asume it must have been a storage room or armory.",
       "item":"Pistol",
-      "exits":{"n":10,"s":4,"w":6}
+      "exits":{"n":9,"s":4,"w":6}
     },
     {
       "name":"You have entered the nineth room!",
@@ -75,19 +75,19 @@
       "name":"You have entered the tenth room!",
       "description":"You have now entered room 10. Room 10 is an old wiches chamber. You see various brewing stands and potions.",
       "item":"Potion",
-      "exits":{"s":6,"w":11,"e":10}
+      "exits":{"s":6,"w":11,"e":9}
     },
     {
       "name":"You have entered the eleventh room!",
       "description":"You have now entered room 11. In this room you can hear an angry beast near by. You are nearing the end!",
       "item":"Lightning Rod",
-      "exits":{"s":7,"w":9}
+      "exits":{"s":7,"w":10}
     },
     {
       "name":"Congratulations!",
-      "description":"You have found the treasure and killed the beast with the pistol. You have won the game!",
+      "description":"You have entered the room with the Gold Key, used the Gem to see, and the potion has strengthened you to find the treasure and kill the beast with the pistol. You have won the game!",
       "require":["Gold Key","Pistol","Gem","Potion"],
-      "clue":"You do not have all the needed items to continue to this room.",
+      "clue":"You do not have all the needed items to continue to this room. Keep searching to find strength, another light source, a key, and a weapon.",
       "exits":{}
     }
   ]
