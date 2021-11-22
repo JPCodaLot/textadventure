@@ -44,7 +44,7 @@ def gotoRoom(number):
     if "e" in room["exits"]:
       print("- East")
     print() # Print blank newline
-    UserChoice = input()
+    UserChoice = lower(input())
 
     # Defining walk to room function
     def walk(direction):
